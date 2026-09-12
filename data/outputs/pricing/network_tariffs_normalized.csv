@@ -1,0 +1,9 @@
+operator,voltage_level,low_util_leistungspreis_eur_kwa,low_util_arbeitspreis_ct_kwh,high_util_leistungspreis_eur_kwa,high_util_arbeitspreis_ct_kwh
+westnetz,Höchstspannung mit Umspannung auf Hochspannung,17.18,2.81,76.7,0.43
+westnetz,Hochspannung,13.72,4.57,122.22,0.23
+westnetz,Hochspannung mit Umspannung auf Mittelspannung,14.75,4.85,130.25,0.23
+westnetz,Mittelspannung,16.82,5.71,134.32,1.01
+westnetz,Mittelspannung mit Umspannung auf Niederspannung,17.9,6.57,150.9,1.25
+westnetz,Niederspannung,19.93,8.27,120.43,4.25
+amprion,Höchstspannung,11.39,2.36,53.06,0.69
+amprion,Höchstspannung mit Umspannung,17.18,2.81,76.7,0.43

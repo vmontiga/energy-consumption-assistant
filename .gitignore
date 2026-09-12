@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Secrets - the README has the user put OPENAI_API_KEY in here
+.env
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Generated data - fully reproducible from a fixed seed (see
+# 00_synthetic_customer_generator.ipynb, RANDOM_SEED = 42). Regenerate by
+# running the training pipeline notebooks (00 -> 03) rather than committing
+# these - the bulk electricity file alone is ~870MB, far past GitHub's
+# 100MB per-file limit even compressed.
+data/inputs/generated/
+data/outputs/electricity_peaks.csv
+data/outputs/gas_peaks.csv
+data/outputs/electricity_features.csv
+data/outputs/gas_features.csv
+data/outputs/electricity_clusters.csv
+data/outputs/gas_clusters.csv
+data/outputs/financial/
+data/outputs/llm_profiles/
